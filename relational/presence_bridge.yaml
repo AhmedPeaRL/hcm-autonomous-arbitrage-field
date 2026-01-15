@@ -1,0 +1,11 @@
+presence_bridge:
+  expose_execution: false
+  expose_decision: false
+  expose_witness_only: true
+
+witness_payload:
+  fields:
+    - timestamp
+    - market_context_hash
+    - action_type
+    - result
