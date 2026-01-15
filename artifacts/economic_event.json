@@ -1,0 +1,7 @@
+{
+  "event": "economic_passage",
+  "nature": "rare",
+  "action": "executed_once",
+  "value_flow": "observed",
+  "continuation": "none"
+}
