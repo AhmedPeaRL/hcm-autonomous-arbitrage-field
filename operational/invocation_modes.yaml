@@ -1,0 +1,16 @@
+invocation_modes:
+  manual:
+    allowed: true
+    preferred: true
+
+  conditional:
+    allowed: true
+    frequency: "non-linear"
+    cron: null
+
+  autonomous:
+    allowed: true
+    only_if:
+      - rarity_confirmed
+      - no_recent_execution
+      - no_external_demand
