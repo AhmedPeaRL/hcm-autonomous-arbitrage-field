@@ -1,0 +1,15 @@
+right_of_action:
+  principle: "Action is allowed only under rarity"
+  repetition: false
+  memory: forbidden
+  optimization: forbidden
+  urgency: forbidden
+
+rarity_conditions:
+  min_spread_percent: 2.5
+  min_market_volatility: high
+  last_execution_must_be: null
+
+post_action_state:
+  silence_required: true
+  cooldown: undefined
